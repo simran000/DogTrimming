@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="410dp"
+        android:layout_height="210dp">
+
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:text="BASIC TRIMMING"
+        android:textSize="15dp"
+        android:textColor="#2d436b"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="10dp"
+        app:cardCornerRadius="25dp">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/dog" />
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="149dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="480dp"
+        android:orientation="horizontal">
+
+        <TableLayout
+            android:layout_width="240dp"
+            android:layout_height="160dp">
+
+            <TableRow
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content">
+
+                <TextView
+                    android:id="@+id/breed"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:padding="2dp"
+                    android:text="Breed Type"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-1dp"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/border"
+                    android:padding="2dp"
+                    android:text="Price/Charges"
+                    android:textStyle="bold" />
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/breed1"
+                    android:layout_width="80dp"
+                    android:layout_height="37dp"
+                    android:layout_marginTop="-5.9dp"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:background="@drawable/border"
+                    android:text="Small"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/price1"
+                    android:layout_width="100dp"
+                    android:layout_height="33dp"
+                    android:layout_marginLeft="-1dp"
+                    android:layout_marginTop="-8dp"
+                    android:padding="3dp"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/border"
+                    android:text="₹700"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="-140dp"
+                    android:layout_marginTop="-5dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="Book Now"
+                    android:textColor="#fff"
+                    android:textSize="10dp"
+                    android:background="@drawable/pack"/>
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/breed2"
+                    android:layout_width="80dp"
+                    android:layout_height="37dp"
+                    android:layout_marginTop="-5.9dp"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:background="@drawable/border"
+                    android:text="Medium"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/price2"
+                    android:layout_width="100dp"
+                    android:layout_height="32dp"
+                    android:layout_marginLeft="-1dp"
+                    android:layout_marginTop="-8dp"
+                    android:padding="2dp"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/border"
+                    android:text="₹700"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="-140dp"
+                    android:layout_marginTop="-5dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="Book Now"
+                    android:textColor="#fff"
+                    android:textSize="10dp"
+                    android:background="@drawable/pack"/>
+
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/breed3"
+                    android:layout_width="80dp"
+                    android:layout_height="37dp"
+                    android:layout_marginTop="-5.9dp"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:background="@drawable/border"
+                    android:text="Large"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/price3"
+                    android:layout_width="100dp"
+                    android:layout_height="32dp"
+                    android:layout_marginLeft="-1dp"
+                    android:layout_marginTop="-8dp"
+                    android:padding="2dp"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/border"
+                    android:text="₹700"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="-140dp"
+                    android:layout_marginTop="-5dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="Book Now"
+                    android:textColor="#fff"
+                    android:textSize="10dp"
+                    android:background="@drawable/pack"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/breed4"
+                    android:layout_width="80dp"
+                    android:layout_height="37dp"
+                    android:layout_marginTop="-5.9dp"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:background="@drawable/border"
+                    android:text="Extra Large"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/price4"
+                    android:layout_width="100dp"
+                    android:layout_height="32dp"
+                    android:layout_marginLeft="-1dp"
+                    android:layout_marginTop="-8dp"
+                    android:padding="2dp"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/border"
+                    android:text="₹700"
+                    android:textStyle="bold" />
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="-140dp"
+                    android:layout_marginTop="-5dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="Book Now"
+                    android:textColor="#fff"
+                    android:textSize="10dp"
+                    android:background="@drawable/pack"/>
+
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
